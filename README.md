@@ -1,8 +1,7 @@
 
 # Productivity Dashboard App
 
-A Python-based productivity application designed for task management, organization, and seamless user interaction. This application features a dynamic dashboard, a to-do list manager, and an AI-powered chatbot for enhanced productivity.
-
+A Python-based productivity application designed for task management, organization, and seamless user interaction. This application features a dynamic dashboard and a to-do list manager.
 ## Features
 
 1. **Dashboard**
@@ -15,17 +14,12 @@ A Python-based productivity application designed for task management, organizati
    - Includes a deadline picker with calendar and time options.
    - Displays recently completed tasks for quick reference.
 
-3. **AI Chatbot**
-   - Interact with ChatGPT for queries or assistance.
-   - Saves chat history locally for future reference.
-   - Supports custom API keys for OpenAI integration.
-
-4. **Data Structures**
+3. **Data Structures**
    - `CustomMap`: Manages class and task mappings.
    - `Stack`: Tracks recently completed tasks.
    - Priority queue (min-heap): Organizes urgent action items.
 
-5. **Dark Theme UI**
+4. **Dark Theme UI**
    - A sleek and responsive interface using `CustomTkinter`.
    - Sidebar navigation for intuitive switching between features.
 
@@ -88,9 +82,6 @@ python dashboard.py
 - Mark tasks as completed using checkboxes.
 - Delete classes or tasks as needed.
 
-### Chat with AI
-1. Open the **Talk with AI** section.
-2. Enter your OpenAI API key to start chatting.
 
 ---
 
